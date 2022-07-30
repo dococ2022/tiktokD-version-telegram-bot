@@ -3,7 +3,7 @@ import { getUrl } from "./src/getUrl.js";
 import { lang } from "./src/language.js";
 import { validateDomain } from "./src/validateDomain.js";
 
-const token = 'your-token-here';
+const token = '5599787287:AAE6Lb-PCLsRlRrXKubsbZRbQsYroBhHTmE';
 const bot = new TelegramBot(token, {polling: true});
 if(lang.welcome === '') lang.cb('en');
 
